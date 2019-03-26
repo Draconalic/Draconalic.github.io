@@ -1,4 +1,5 @@
 ﻿@charset "utf-8";
+
 * {
 	margin: 0;
 	padding: 0;
@@ -124,7 +125,7 @@ hr {
 	width: 31.33333333333%;
 	margin-left: 2%;
 	box-sizing: border-box;
-	min-height: 600px;
+	height: 700px;
 	border: 2px solid silver;
 	border-radius: 5px;
 	float: left;
@@ -135,7 +136,7 @@ hr {
 	width: 48%;
 	margin-left: 2%;
 	box-sizing: border-box;
-	min-height: 600px;
+	height: 700px;
 	border: 2px solid silver;
 	border-radius: 5px;
 	float: left;
@@ -145,7 +146,7 @@ hr {
 #wrapp .articles article {
 	width: 100%;
 	box-sizing: border-box;
-	min-height: 600px;
+	height: 700px;
 	border: 2px solid silver;
 	border-radius: 5px;
 	float: left;
@@ -156,6 +157,7 @@ hr {
 	border-bottom: 1px solid silver;
 	border-radius: 3px 3px 0 0 ;
 	width: 100%;
+	max-height: 50%;
 	
 }
 #wrapp .articles article h2 {
